@@ -115,6 +115,46 @@ img {
     align-self: flex-end;
 }
 
+#call-section {
+    display: flex;
+    padding: 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-container .call-button{
+    border: 2px solid white;
+}
+
+.call-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 32px 64px;
+    width: 100%;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-main, .call-secondary {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.call-main {
+    font-weight: 900;
+}
+
+.call-secondary {
+    font-weight: lighter;
+}
+
 #header, #hero, #footer {
     background-color: #1F2937;
 }
