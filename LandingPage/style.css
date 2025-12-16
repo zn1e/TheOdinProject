@@ -74,13 +74,12 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 24px 16px;
+    margin: 24px 16px 64px;
 }
 
-.info-header {
+.info-header, .quote-text {
     font-size: 36px;
     color: #1F2937;
-    font-weight: 900;
 }
 
 .info-container {
@@ -100,6 +99,30 @@ img {
     max-width: 200px;
 }
 
+#quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 64px;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+}
+
 #header, #hero, #footer {
     background-color: #1F2937;
+}
+
+.info-header {
+    font-weight: 900;
+}
+
+.quote-text {
+    font-weight: 300;
 }
