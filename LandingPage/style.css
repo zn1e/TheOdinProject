@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.header {
+#header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,7 +36,7 @@ a {
     font-weight: 100;
 }
 
-.hero {
+#hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,7 +69,37 @@ img {
     margin: 0;
 }
 
+#information-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 24px 16px;
+}
 
-.header, .hero, .footer {
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    text-align: center;
+    gap: 32px;
+}
+
+.info-img {
+    height: 100px;
+    width: 200px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+#header, #hero, #footer {
     background-color: #1F2937;
 }
